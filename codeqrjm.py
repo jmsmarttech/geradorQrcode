@@ -1,5 +1,5 @@
 import pyqrcode
 import png
-link = "https://www.instagram.com/seu-instagram"
+link = "https://"
 qr_code = pyqrcode.create(link)
-qr_code.png("instagram.png", scale=5)
+qr_code.png("name.png", scale=5)
